@@ -1,5 +1,7 @@
 # Atomist 'rug-koans'
 
+***Warning!*** - Working in Progress.
+
 A set of learning tutorials, [koans][koans], for getting to grips with [Rug][rug].
 
 [rug]: http://docs.atomist.com/
