@@ -23,7 +23,6 @@ when
   NewRugKoansProject
 
 then
-  fileExists ".atomist/editors/1AnEmptyProjectGeneratorWithRugDSL.rug"
-    and fileExists ".atomist/editors/1AnEmptyProjectGeneratorWithRugDSLSolution.rug"
-    and fileExists ".atomist/tests/1AnEmptyProjectGeneratorWithRugDSL.rt"
-    and fileExists ".atomist/tests/1AnEmptyProjectGeneratorWithRugDSLSolution.rt"
+  fileExists ".atomist/editors/AnEmptyProjectGeneratorWithRugDSLSolution.rug"
+    and fileExists ".atomist/tests/AnEmptyProjectGeneratorWithRugDSLSolution.rt"
+    and fileExists ".atomist/templates/readme.mustache"

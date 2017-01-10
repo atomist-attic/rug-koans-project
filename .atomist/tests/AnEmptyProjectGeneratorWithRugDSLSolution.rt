@@ -23,4 +23,4 @@ when
   AnEmptyProjectGeneratorWithRugDSLSolution
 
 then
-  NoChange
+  { !result.fileExists("README.md") }
