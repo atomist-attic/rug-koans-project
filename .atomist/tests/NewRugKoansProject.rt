@@ -16,6 +16,8 @@
 
 scenario NewRugKoansProject should create a new populated Rug Koans project for users to work in
 
+let project_name = "mynewrugkoansproject"
+
 given
   ArchiveRoot
 
@@ -23,6 +25,9 @@ when
   NewRugKoansProject
 
 then
-  fileExists ".atomist/editors/AnEmptyProjectGeneratorWithRugDSLSolution.rug"
-    and fileExists ".atomist/tests/AnEmptyProjectGeneratorWithRugDSLSolution.rt"
-    and fileExists ".atomist/templates/readme.mustache"
+  fileExists ".atomist/manifest.yml"
+    and fileContains ".atomist/manifest.yml" "artifact: myartifact"
+    and fileContains ".atomist/manifest.yml" "group: mygroup"
+    and fileContains ".atomist/manifest.yml" "version: 0.1.0-SNAPSHOT"
+    and fileExists "README.md"
+    and fileContains "README.md" { return "# Atomist '" + project_name + "'" }

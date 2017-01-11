@@ -1,5 +1,13 @@
-# My own Rug Koans!
+# Atomist '${project_name}'
 
-Congratulations! You've copied the Rug Koans for your own use.
+Congratulations! These are the Rug Koans for your own use.
 
 You can now edit/amend or otherwise transmogrify these sources as you work through the Rug Koans.
+
+Each step on your journey is created using the [Rug Koan Editors]
+
+[Take your first step]() by executing a Rug editor to introduce a starting point in this project:
+
+```
+
+```
