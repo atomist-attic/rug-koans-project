@@ -2,7 +2,7 @@ group: $group_id
 artifact: $artifact_id
 version: $version
 
-requires: $rug_version
+requires: "${rug_version}"
 
 dependencies:
 

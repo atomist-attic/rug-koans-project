@@ -53,6 +53,13 @@ param group_id: @group_id
 @default "0.1.0-SNAPSHOT"
 param version: @semantic_version
 
+@displayName "Rug Version"
+@description "specific version or version range for Rug"
+@validInput "a valid semantic version range, http://semver.org and http://maven.apache.org/components/enforcer/enforcer-rules/versionRanges.html"
+@optional
+@default "[0.9.0,1.0.0)"
+param rug_version: @semantic_version
+
 with Project begin
   do merge "readmeForGenerator.vm" "README.md"
   do merge "manifest.vm" ".atomist/manifest.yml"

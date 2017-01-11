@@ -29,6 +29,7 @@ then
     and fileContains ".atomist/manifest.yml" "artifact: myartifact"
     and fileContains ".atomist/manifest.yml" "group: mygroup"
     and fileContains ".atomist/manifest.yml" "version: 0.1.0-SNAPSHOT"
+    and fileContains ".atomist/manifest.yml" "[0.9.0,1.0.0)"
     and fileExists "README.md"
     and fileContains "README.md" { return "# Atomist '" + project_name + "'" }
     and { !result.fileExists("LICENSE") }
