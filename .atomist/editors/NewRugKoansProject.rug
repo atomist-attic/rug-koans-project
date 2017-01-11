@@ -19,6 +19,10 @@
 @generator
 editor NewRugKoansProject
 
+uses atomist-rugs.common-editors.RemoveApacheSoftwareLicense20
+uses atomist-rugs.common-editors.RemoveChangeLog
+uses atomist-rugs.common-editors.RemoveCodeOfConduct
+
 @displayName "Project Name"
 @description "name of your new Rug Koans project"
 @validInput "a valid GitHub repo name containing only alphanumeric, ., -, and _ characters and 21 characters or less to avoid Slack truncating the name when creating a channel for the repo"
@@ -53,3 +57,7 @@ with Project begin
   do merge "readmeForGenerator.vm" "README.md"
   do merge "manifest.vm" ".atomist/manifest.yml"
 end
+
+RemoveApacheSoftwareLicense20
+RemoveChangeLog
+RemoveCodeOfConduct

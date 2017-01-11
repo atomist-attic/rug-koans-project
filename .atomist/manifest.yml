@@ -2,8 +2,9 @@ group: atomist-rugs
 artifact: rug-koans-project
 version: "0.1.0"
 
-requires: "[0.8.0,1.0.0)"
+requires: "[0.9.0,1.0.0)"
 
 dependencies:
+- "atomist-rugs:common-editors:0.6.0"
 
 extensions:
