@@ -1,5 +1,9 @@
 # Atomist 'rug-koans-project'
 
+[![Build Status](https://travis-ci.org/atomist-rugs/rug-koans-project.svg?branch=master)](https://travis-ci.org/atomist-rugs/rug-koans-project)
+[![Slack Status](https://join.atomist.com/badge.svg)](https://join.atomist.com)
+
+
 The starting point Rug generator for your learning journey through a set of tutorials, [koans][koans], that aim to get you up to speed with [Rug][rug].
 
 This starting point is then used to execute editors from [Rug Koans Editors][rug-koans-editors] to work through each of the Koans.
