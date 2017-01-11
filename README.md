@@ -20,6 +20,8 @@ The NewRugKoansProject generator creates a new [Rug][rug] Koans project for you 
 
 [rug]: http://docs.atomist.com/
 
+[<img src="http://images.atomist.com/button/create-project.png" width="267" alt="Start your Rug Koans Journey"/>](https://api.atomist.com/v1/projects/generators/232f8cf4-da4d-4e9d-adf0-290b2b07667a)
+
 #### Prerequisites
 
 There are no prerequisites to running this generator.
