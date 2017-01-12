@@ -7,7 +7,15 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
 
-[Unreleased]: https://github.com/atomist-rugs/rug-koans-project/compare/0.1.0...HEAD
+[Unreleased]: https://github.com/atomist-rugs/rug-koans-project/compare/0.1.1...HEAD
+
+## [0.1.1] - 2017-01-12
+
+[0.1.1]: https://github.com/atomist-rugs/spring-boot-rest-service/compare/0.1.0...0.1.1
+
+### Changed
+
+-   Relaxed regex restrictions on Rug Version parameter, awaiting next release of Rug.
 
 ## [0.1.0] - 2017-01-11
 
