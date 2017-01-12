@@ -4,8 +4,16 @@ Congratulations! These are the Rug Koans for your own use.
 
 You can now edit/amend or otherwise transmogrify these sources as you work through the Rug Koans.
 
-Each step on your journey is created using the [Rug Koan Editors]
+Each step on your journey is created using the [Rug Koan Editors][rug-koan-editors]
 
-[Take your first step]() by executing a Rug editor to introduce a starting point in this project:
+[rug-koans-editors]: https://github.com/atomist-rugs/rug-koans-editors
 
-***Coming Soon***
+## The Full Rug Koan Journey
+
+Step | Teaches | Start | Apply Solution | See Solution Alongside
+-----|-------- | ------|--------------- | ----------------------
+ 1 | How to create a simple Rug generator that will create a new project with a merged README | TBD | TBD | TBD
+
+These steps are themselves implemented as editors in [Rug Koans Editors][rug-koans-editors].
+
+[rug-koans-editors]: https://github.com/atomist-rugs/rug-koans-editors

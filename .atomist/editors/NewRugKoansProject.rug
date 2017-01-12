@@ -51,7 +51,7 @@ param group_id: @group_id
 @validInput "a valid semantic version, http://semver.org"
 @optional
 @default "0.1.0-SNAPSHOT"
-param version: @any
+param version: @semantic_version
 
 @displayName "Rug Version"
 @description "specific version or version range for Rug"
