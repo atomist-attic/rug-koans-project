@@ -35,3 +35,53 @@ then
     and { !result.fileExists("LICENSE") }
     and { !result.fileExists("CHANGELOG.md") }
     and { !result.fileExists("CODE_OF_CONDUCT.md") }
+
+
+scenario NewRugKoansProject should accept a Rug version range
+
+let project_name = "mynewrugkoansproject"
+let rug_version = "[0.8.1,1.0.0)"
+
+given
+  ArchiveRoot
+
+when
+  NewRugKoansProject
+
+then
+  fileExists ".atomist/manifest.yml"
+    and fileContains ".atomist/manifest.yml" "artifact: myartifact"
+    and fileContains ".atomist/manifest.yml" "group: mygroup"
+    and fileContains ".atomist/manifest.yml" "version: 0.1.0-SNAPSHOT"
+    and fileContains ".atomist/manifest.yml" rug_version
+    and { !result.fileContains(".atomist/manifest.yml", "0.9.0") }
+    and fileExists "README.md"
+    and fileContains "README.md" { return "# Atomist '" + project_name + "'" }
+    and { !result.fileExists("LICENSE") }
+    and { !result.fileExists("CHANGELOG.md") }
+    and { !result.fileExists("CODE_OF_CONDUCT.md") }
+
+
+scenario NewRugKoansProject should accept a simple Rug version
+
+let project_name = "mynewrugkoansproject"
+let rug_version = "0.9.0"
+
+given
+  ArchiveRoot
+
+when
+  NewRugKoansProject
+
+then
+  fileExists ".atomist/manifest.yml"
+    and fileContains ".atomist/manifest.yml" "artifact: myartifact"
+    and fileContains ".atomist/manifest.yml" "group: mygroup"
+    and fileContains ".atomist/manifest.yml" "version: 0.1.0-SNAPSHOT"
+    and fileContains ".atomist/manifest.yml" rug_version
+    and { !result.fileContains(".atomist/manifest.yml", "1.0.0") }
+    and fileExists "README.md"
+    and fileContains "README.md" { return "# Atomist '" + project_name + "'" }
+    and { !result.fileExists("LICENSE") }
+    and { !result.fileExists("CHANGELOG.md") }
+    and { !result.fileExists("CODE_OF_CONDUCT.md") }
