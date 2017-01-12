@@ -7,11 +7,19 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
 
-[Unreleased]: https://github.com/atomist-rugs/rug-koans-project/compare/0.2.0...HEAD
+[Unreleased]: https://github.com/atomist-rugs/rug-koans-project/compare/0.3.0...HEAD
+
+## [0.3.0] - 2017-01-12
+
+[0.3.0]: https://github.com/atomist-rugs/spring-boot-rest-service/compare/0.2.0...0.3.0
+
+### Changed
+
+-   Corrected README for generated project to take folks to the Rug Koans editors for the full editor-driven Koan journey.
 
 ## [0.2.0] - 2017-01-12
 
-[0.2.0]: https://github.com/atomist-rugs/spring-boot-rest-service/compare/0.1.1...0.2.0
+[0.2.0]: https://github.com/atomist-rugs/rug-koans-project/compare/0.1.1...0.2.0
 
 ### Changed
 
@@ -19,7 +27,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [0.1.1] - 2017-01-12
 
-[0.1.1]: https://github.com/atomist-rugs/spring-boot-rest-service/compare/0.1.0...0.1.1
+[0.1.1]: https://github.com/atomist-rugs/rug-koans-project/compare/0.1.0...0.1.1
 
 ### Changed
 
@@ -29,10 +37,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 Initial release
 
-[0.1.0]: https://github.com/atomist-rugs/spring-boot-rest-service/compare/de8f522...0.1.0
+[0.1.0]: https://github.com/atomist-rugs/rug-koans-project/compare/de8f522...0.1.0
 
 ### Added
 
--   Generator for [Spring Boot][boot] REST service
-
-[boot]: https://projects.spring.io/spring-boot/
+-   Generator for the Rug Koans project.
