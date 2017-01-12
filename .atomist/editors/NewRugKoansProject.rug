@@ -58,7 +58,7 @@ param version: @semantic_version
 @validInput "a valid semantic version range, http://semver.org and http://maven.apache.org/components/enforcer/enforcer-rules/versionRanges.html"
 @optional
 @default "[0.9.0,1.0.0)"
-param rug_version: @semantic_version
+param rug_version: ^(?:(?:0|[1-9]\d*)\.(?:0|[1-9]\d*)\.(?:0|[1-9]\d*)|[\[\(](?:0|[1-9]\d*)\.(?:0|[1-9]\d*)\.(?:0|[1-9]\d*),(?:0|[1-9]\d*)\.(?:0|[1-9]\d*)\.(?:0|[1-9]\d*)[\]\)])$
 
 with Project begin
   do merge "readmeForGenerator.vm" "README.md"
