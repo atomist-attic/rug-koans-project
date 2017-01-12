@@ -7,7 +7,15 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
 
-[Unreleased]: https://github.com/atomist-rugs/rug-koans-project/compare/0.3.0...HEAD
+[Unreleased]: https://github.com/atomist-rugs/rug-koans-project/compare/0.4.0...HEAD
+
+## [0.4.0] - 2017-01-12
+
+[0.4.0]: https://github.com/atomist-rugs/spring-boot-rest-service/compare/0.3.0...0.4.0
+
+### Changed
+
+-   Corrected README for generated project to take folks correctly to the Rug Koans editors for the full editor-driven Koan journey.
 
 ## [0.3.0] - 2017-01-12
 
