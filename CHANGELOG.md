@@ -11,7 +11,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [0.6.0] - 2017-01-12
 
-[0.6.0]: https://github.com/atomist-rugs/spring-boot-rest-service/compare/0.5.0...0.6.0
+[0.6.0]: https://github.com/atomist-rugs/rug-koans-project/compare/0.5.0...0.6.0
 
 ### Changed
 
@@ -19,7 +19,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [0.5.0] - 2017-01-12
 
-[0.5.0]: https://github.com/atomist-rugs/spring-boot-rest-service/compare/0.4.0...0.5.0
+[0.5.0]: https://github.com/atomist-rugs/rug-koans-project/compare/0.4.0...0.5.0
 
 ### Changed
 
@@ -27,7 +27,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [0.4.0] - 2017-01-12
 
-[0.4.0]: https://github.com/atomist-rugs/spring-boot-rest-service/compare/0.3.0...0.4.0
+[0.4.0]: https://github.com/atomist-rugs/rug-koans-project/compare/0.3.0...0.4.0
 
 ### Changed
 
@@ -35,7 +35,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [0.3.0] - 2017-01-12
 
-[0.3.0]: https://github.com/atomist-rugs/spring-boot-rest-service/compare/0.2.0...0.3.0
+[0.3.0]: https://github.com/atomist-rugs/rug-koans-project/compare/0.2.0...0.3.0
 
 ### Changed
 
