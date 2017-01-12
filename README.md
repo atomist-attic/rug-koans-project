@@ -36,8 +36,10 @@ Name | Required | Default | Description
 `artifact_id` | No | myartifact | Maven artifact ID, e.g., "fiddle-riddle".
 `group_id` | No | mygroup |  Maven group ID, e.g., "com.pany.project".
 `version` | No | 0.1.0-SNAPSHOT | [Semantic version][semver] of the project.
+`rug_version` | No | [0.9.0,1.0.0) | A valid [Maven version range][maven-version-range]
 
 [semver]: http://semver.org
+[maven-version-range]: http://maven.apache.org/components/enforcer/enforcer-rules/versionRanges.html
 
 #### Running
 
@@ -49,7 +51,8 @@ $ rug generate atomist-rugs:rug-koans-project:NewRugKoansProject \
     my-own-rug-koans \
     artifact_id=my-own-rug-koans \
     group_id=uk.co.lndn \
-    version=0.1.0-SNAPSHOT
+    version=0.1.0-SNAPSHOT \
+    rug_version="[0.9.0,1.0.0)"
 ```
 
 Note the first parameter, the `project_name`, is different in that you
